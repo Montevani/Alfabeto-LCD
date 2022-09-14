@@ -2,12 +2,14 @@
 Três programas em assembly para um trabalho de faculdade (UNESP, 2014).
 
 
+
 ![Primeiro Programa](https://github.com/Montevani/Alfabeto-LCD/blob/main/Flow1.jpg)
 
   Neste programa foram-se utilizadas duas sub-rotinas (IniciaLCD e WriteLCD)
 com os objetivos de se iniciar o LCD e de se passar os comandos para o LCD,
 respectivamente e uma interrupção em INT0 (escreve) com o objetivo de se escrever o
 alfabeto na primeira posição do LCD.
+
 
 
 ![Segundo Programa](https://github.com/Montevani/Alfabeto-LCD/blob/main/Flow2.jpg)
@@ -19,6 +21,7 @@ faz a função de escrever o alfabeto no display.
 Foram usados registradores para se contar a posição do cursos e se assegurar
 que não apareceria outros caracteres que não fossem as letras do alfabeto no display,
 ou seja, parando no Z.
+
 
 
 ![Terceiro Programa](https://github.com/Montevani/Alfabeto-LCD/blob/main/Flow3.jpg)
